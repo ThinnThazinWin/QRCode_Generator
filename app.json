@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "QR-code-generator",
+    "slug": "QR-code-generator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/qr.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/qr1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/qr.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.thinn_thazinwin.QRcodegenerator"
+    },
+    "web": {
+      "favicon": "./assets/qr.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cdbb0b2f-e71a-495c-b223-32455e21a3ed"
+      }
+    }
+  }
+}
